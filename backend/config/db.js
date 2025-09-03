@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGODB_URI, {
-      dbName: "smart_book", // your DB name in Atlas
+      dbName: "test", // your DB name in Atlas
     });
     console.log("MongoDB connected");
   } catch (err) {
