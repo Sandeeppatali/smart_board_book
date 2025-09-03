@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "https://vercel-test-bice-iota.vercel.app",
+        target: "https://smart-board-book.vercel.app/",
         changeOrigin: true,
         secure: false,
       },
