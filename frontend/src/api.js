@@ -1,7 +1,7 @@
 // api.js - Updated version with better error handling and debugging
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL || "https://backend-vlz6.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL || "https://smart-board-book-be8d.vercel.app";
 
 // Enhanced debug logging
 console.log("Environment:", import.meta.env.MODE);
