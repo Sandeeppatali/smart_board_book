@@ -10,7 +10,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await api.post("/api/auth/login", { email, password });
+      const res = await api.post("https://smart-board-book-be8d.vercel.app/api/auth/login", { email, password });
 
       // ✅ Save JWT token
       localStorage.setItem("token", res.data.token);
